@@ -1,0 +1,49 @@
+.col-12 {
+  .card {
+    border: none;
+    .images {
+      position: relative;
+      img {
+        height: 200px;
+      }
+      .content {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background-color: #fff;
+        width: 86px;
+        height: 40px;
+        padding: 14px 16px 13px 16px;
+        .img-bg {
+          color: #9a9ab0;
+          font-size: 12px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 110%; /* 13.2px */
+          letter-spacing: 0.096px;
+        }
+      }
+    }
+    .card-body {
+      .card-title {
+        color: #333;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0.12px;
+        height: 200px;
+      }
+      .card-text {
+        display: flex;
+        gap: 16px;
+        color: #9a9ab0;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: 0.096px;
+      }
+    }
+  }
+}

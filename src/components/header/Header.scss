@@ -1,0 +1,24 @@
+header {
+  background-color: #109be9;
+  ul {
+    padding: 26px 0 27px 0;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    .nav-menu__item {
+      list-style-type: none;
+      .nav-menu__link {
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%; /* 19.2px */
+        letter-spacing: 0.08px;
+        text-decoration: none;
+      }
+      .active {
+        color: #f00;
+      }
+    }
+  }
+}
